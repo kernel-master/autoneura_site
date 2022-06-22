@@ -7,7 +7,9 @@ const ContactPage = () => {
 		<div>
        <div style={{position: 'relative', height: '1000px', backgroundColor: 'black'}}>
         <div style={{paddingTop: '300px'}}>
-					<Image  width="70px" height="70px" src={Contact}  style={{display: 'inline-flex', alignContent: 'center', }}/>
+          <a style={{cursor: "pointer"}} href="/#" onClick={(e)=> {window.location.href = 'mailto:abarr@autoneura.com'; e.preventDefault();}}>
+					  <Image  width="70px" height="70px" src={Contact}  style={{display: 'inline-flex', alignContent: 'center', }}/>
+          </a>
 				</div>
         <Header as='h1' style={{color: "white", paddingTop: "40px", padding: '20px 0px 0px 0px'}}
         content="Get In Touch With Us"
