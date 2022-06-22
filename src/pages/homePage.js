@@ -45,7 +45,7 @@ const HomePage = () => {
         />
         <div className="video-responsive">
           <iframe
-            width="853"
+            width="75%"
             height="480"
             src={`https://www.youtube.com/embed/PRJHgiLzT58`}
             frameBorder="0"
